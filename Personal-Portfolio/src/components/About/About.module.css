@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+/* Styling for the container of the About section */
+.container {
+  position: relative; /* Positions the container relative to its normal position */
+  background-color: var(--color-bg); /* Sets background color */
+  color: var(--color-text); /* Sets text color */
+  border-radius: 15px; /* Rounds the corners of the container */
+  padding: 73px; /* Adds padding inside the container */
+  margin-top: 129px; /* Adds space above the container */
+  z-index: 1; /* Sets the stack order of the container */
+  margin-left: 10%; /* Adds space to the left of the container */
+  margin-right: 10%; /* Adds space to the right of the container */
+}
+
+/* Styling for the title of the About section */
+.title {
+  color: var(--color-text); /* Sets the text color*/
+  font-size: 35px; /* Sets the font size */
+  font-weight: 700; /* Makes the font bold */
+  letter-spacing: 1.75px; /* Increases spacing between letters */
+  text-transform: uppercase; /* Converts text to uppercase */
+}
+
+/* Styling for the content area within the About section */
+.content {
+  display: flex; 
+  flex-direction: row; /* Arranges flex items in a row */
+  align-items: center; /* centers flex items */
+}
+
+/* Styling for the image in the About section */
+.aboutImage {
+  width: 35%; 
+}
+
+/* Styling for the list of about items */
+.aboutItems {
+  color: var(--color-text); 
+  display: flex; 
+  flex-direction: column; /* Arranges flex items in a column */
+  gap: 50px; /* Adds space between flex items */
+}
+
+/* Styling for each item in the list of about items */
+.aboutItem {
+  display: flex; 
+  flex-direction: row; /* Arranges flex items in a row */
+  align-items: center; 
+  border-radius: 20px; /* Rounds the corners of the items */
+  list-style: none; /* Removes bullet points from list items */
+  padding: 25px; /* Adds padding inside each item */
+  background-image: linear-gradient( /*gradient for when you hover over */
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ); 
+  background-size: 0 100%; /* Sets the size of the background gradient */
+  background-repeat: no-repeat; /* Prevents the background gradient from repeating */
+  transition: 0.4s; /* Adds a transition effect when hovering */
+}
+/* Changes the background gradient on hover to a light black gradient */
+.aboutItem:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1) 0%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 100% 100%; /* Expands the gradient to cover the item */
+}
+
+/* Styling for the headings within each about item */
+.aboutItem h3 {
+  font-size: 25px; /* Sets the font size */
+  font-weight: 600; /* Makes the font semi-bold */
+}
+
+/* Styling for the paragraphs within each about item */
+.aboutItem p {
+  font-size: 25px; /* Sets the font size */
+}
+
+/* Responsive design adjustments for screens narrower than 830px */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent; /* Makes the background transparent */
+    padding-left: 0; /* Removes left padding */
+    padding-right: 0; /* Removes right padding */
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none; /* Hides the image */
+  }
+
+  .aboutItems {
+    margin-top: 29px; /* Adds space above the list of about items */
+  }
+
+  .aboutItem {
+    padding-left: 0; 
+    padding-right: 0; 
+  }
+}

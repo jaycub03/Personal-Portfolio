@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('../assets/font/Extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('../assets/font/light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('../assets/font/lightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+:root {
+  --color-text: #000;
+  --color-primary: #000;
+  --color-secondary: #f2f2f2;
+  --color-dark: #000;
+  --color-bg: #fff;
+  --font-primary: 'GeneralSans', Arial, sans-serif;
+}

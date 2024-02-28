@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Coding Tutor",
+    "location": "Oakland",
+    "startDate": "June, 2023",
+    "endDate": "Aug,2023",
+    "experiences": ["Taught young children python code", "Created fun python projects"]
+  },
+  {
+    "role": "Pressed Assistant Manager",
+    "location": "Oakland",
+    "startDate": "Oct, 2021",
+    "endDate": "March, 2022",
+    "experiences": ["Oversaw and conducted regular inventory audits", "Developed weekly schedules for over 10 workers"]
+  },
+  {
+    "role": "Quickly Assistant Manager",
+    "location": "Oakland",
+    "startDate": "Jan, 2021",
+    "endDate": "July, 2021",
+    "experiences": [
+      "Managed opening and closing shift",
+      "Empowered and guided a team of 8 employees"
+    ]
+  }
+]

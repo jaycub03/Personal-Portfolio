@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Food",
+    "imageSrc": ["life/food1.png", "life/food2.png", "life/food3.png", "life/food4.png", "life/food5.png"],
+    "description": "Savor the variety: A visual feast of culinary dishes savored through my high school and college days"
+  },
+  {
+    "title": "Jacob",
+    "imageSrc": ["life/me1.png", "life/me2.png", "life/me3.png", "life/me4.png", "life/me5.png"],
+    "description": "Jacob's Adventures: Snapshots of my life's cherised moments and pastimes."
+  },
+  {
+    "title": "Scenic Views",
+    "imageSrc": ["life/outdoor1.png", "life/outdoor2.png", "life/outdoor3.png", "life/outdoor4.png", "life/outdoor5.png"],
+    "description": "Scenic views: Exploring the beauty of nature and architecture."
+  },
+  {
+    "title": "Mongolia",
+    "imageSrc": ["life/mongol1.png", "life/mongol2.png", "life/mongol3.png", "life/mongol4.png", "life/mongol5.png"],
+    "description": "Journey through the countryside: Reconnecting with Mongolian heritage."
+  }
+]
